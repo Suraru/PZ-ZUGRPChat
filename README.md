@@ -1,18 +1,20 @@
 # PZ-roleplaychat
-The repository for buffy's roleplay chat mod for Project Zomboid.
+This is a fork off of PZRP's fork off of Buffy's RP Chat. It includes all languages from the most recent version of PZRP's fork, as well as fixes, QOL, and additional commands seen below.
 
-If you make a mod based on my work here, please link back to this original repository in your README.md!
+This adds:
++Added /my for /me actions that include 's at the end of your name. For example "/my hand hurts" = "Sura's hand hurts."
++Added aliases for /looc, including /b /ooc (moved from /all)
++Added a function that reads commands case-insensitive, allow you to type /YELL or /Looc
+-Removed surrender from ASL signs for compatibility with prisoner mod
+-Removed ability to clean self via character customization wheel
+-Moved /s alias from /say to /shout
 
-Otherwise hello and welcome, feel free to PR changes.
+Known Bugs:
+-typing /ooc begins each line with C. Example, /ooc test = ((C test))
+
+
+This mod was created for the needs of the Zomboid Underground RP Server.
+discord.gg/zomboidunderground
 
 
 Original mod: https://github.com/buffyuwu/PZ-roleplaychat
-
-
-
-# FOR ADDING TRANSLATIONS:
-
-Create a new folder in the 'Translate' folder with your language letters and follow the format of the existing UI_EN.txt file. Leave the spaces in place!
-You can view other mods for how this sort of thing is structured. For example, English translation has a folder called 'EN' and its file is 'UI_EN.txt'. Russian language would be RU, and its file 'UI_RU.txt' and so on.
-
-If you'd like this mod translated into your preferred language, and don't know how to contribute, reach out to buffy#0001 on Discord.
